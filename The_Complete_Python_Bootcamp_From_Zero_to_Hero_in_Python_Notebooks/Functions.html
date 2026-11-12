@@ -7802,7 +7802,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Python-Functions">Python Functions<a class="anchor-link" href="#Python-Functions">¶</a></h1><h3 id="1.-Type-hint-examples">1. Type hint examples<a class="anchor-link" href="#1.-Type-hint-examples">¶</a></h3><h3 id="2.-Returning-and-unpacking-multiple-values">2. Returning and unpacking multiple values<a class="anchor-link" href="#2.-Returning-and-unpacking-multiple-values">¶</a></h3><h3 id="3.-*args">3. *args<a class="anchor-link" href="#3.-*args">¶</a></h3><h3 id="4.-**kwargs">4. **kwargs<a class="anchor-link" href="#4.-**kwargs">¶</a></h3>
+<h1 id="Python-Functions">Python Functions<a class="anchor-link" href="#Python-Functions">¶</a></h1><h3 id="1.-Type-hint-examples">1. Type hint examples<a class="anchor-link" href="#1.-Type-hint-examples">¶</a></h3><h3 id="2.-Returning-and-unpacking-multiple-values">2. Returning and unpacking multiple values<a class="anchor-link" href="#2.-Returning-and-unpacking-multiple-values">¶</a></h3><h3 id="3.-*args">3. *args<a class="anchor-link" href="#3.-*args">¶</a></h3><h3 id="4.-**kwargs">4. **kwargs<a class="anchor-link" href="#4.-**kwargs">¶</a></h3><h3 id="5.-lambda">5. lambda<a class="anchor-link" href="#5.-lambda">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7850,10 +7850,10 @@ def process_score(dict[str, Any] | list[Any]) -&gt; str:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">display_profile</span><span class="p">(</span><span class="n">nname</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">age</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">role</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">display_profile</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">age</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">role</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
     <span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
     <span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
     <span class="n">role</span> <span class="o">=</span> <span class="n">role</span>
@@ -7907,7 +7907,7 @@ Engineer
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">multiply_all</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
@@ -7957,7 +7957,7 @@ Engineer
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">display_profile</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -8005,7 +8005,7 @@ role: Engineer
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">order_food</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -8046,7 +8046,126 @@ Special delivery instructions:
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d55308c0-1511-4409-a02a-8db5dec96996">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d55308c0-1511-4409-a02a-8db5dec96996">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="5.-lambda-functions">5. lambda functions<a class="anchor-link" href="#5.-lambda-functions">¶</a></h1><h3 id="A-lambda-function-is-a-small-anonymous-function.">A lambda function is a small anonymous function.<a class="anchor-link" href="#A-lambda-function-is-a-small-anonymous-function.">¶</a></h3><h3 id="A-lambda-function-can-take-any-number-of-arguments,-but-can-only-have-one-expression.">A lambda function can take any number of arguments, but can only have one expression.<a class="anchor-link" href="#A-lambda-function-can-take-any-number-of-arguments,-but-can-only-have-one-expression.">¶</a></h3><h3 id="A-lambda-function-is-commonly-used-inside-another-function.">A lambda function is commonly used inside another function.<a class="anchor-link" href="#A-lambda-function-is-commonly-used-inside-another-function.">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ff2f5330-efbe-4a80-9373-702b90b80ce0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">myfunction</span><span class="p">(</span><span class="n">a</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="mi">10</span><span class="p">)</span>
+
+<span class="c1"># a lambda function resembles myfunction as a single line i.e., a: a + 10</span>
+<span class="n">x</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">a</span> <span class="p">:</span> <span class="n">a</span> <span class="o">+</span> <span class="mi">10</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">myfunction</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>15
+15
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=56c5ac0a-8153-45e8-b10b-4357197cf526">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># a function can return a lambda function</span>
+<span class="c1"># return_lambda_function returns the following lambda function</span>
+<span class="c1"># lambda a : a * n; when n equals to the input of return_lambda_function(n)</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">return_lambda_func</span><span class="p">(</span><span class="n">n</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="k">lambda</span> <span class="n">a</span> <span class="p">:</span> <span class="n">a</span> <span class="o">*</span> <span class="n">n</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=35ba2557-9e7f-43a4-8822-39f8ab77c92b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">mydoubler</span> <span class="o">=</span> <span class="n">return_lambda_func</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># x = lambda a: a * 2</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mydoubler</span><span class="p">(</span><span class="mi">11</span><span class="p">))</span>  <span class="c1"># 11 * 2 = 22</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>22
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f2f6a435-34df-40c9-9dc6-82378bd7c596">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">mytripler</span> <span class="o">=</span> <span class="n">return_lambda_func</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>  <span class="c1"># x = lambda a: a * 3</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mytripler</span><span class="p">(</span><span class="mi">11</span><span class="p">))</span>  <span class="c1"># 11 * 3 = 33</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>33
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5699a3b7-31a3-4967-a926-6049d81d7823">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
