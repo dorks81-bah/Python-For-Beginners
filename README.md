@@ -28,3 +28,27 @@ Training hosted by Booz Allen
   * Course FAQs
 * Section 5: Python for Data Analysis - NumPy
   * 16-23
+
+# UV
+An extremely fast Python package and project manager for sharing .venv written in Rust.
+https://docs.astral.sh/uv/
+
+## Installation
+`curl -LsSf https://astral.sh/uv/install.sh | sh` or
+`wget -qO- https://astral.sh/uv/install.sh | sh` or
+`brew install uv` for MAC
+go to UV website for Windows insallation instructions
+
+installing uv into an isolated environment
+`pipx install uv` or
+`pip install uv`
+
+## Commands
+Check if UV is installed
+`uv version`
+
+Creating .venv
+`uv sync`
+
+Select Python (uv-env)  as the jupyter notebook kernal
+
