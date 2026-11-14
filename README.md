@@ -37,17 +37,17 @@ https://docs.astral.sh/uv/
 `curl -LsSf https://astral.sh/uv/install.sh | sh` or<br/>
 `wget -qO- https://astral.sh/uv/install.sh | sh` or<br/>
 `brew install uv` for MAC<br/>
-go to UV website for Windows insallation instructions<br/>
+Go to UV website for Windows installation instructions<br/>
 
-Installing uv into an isolated environment<br/>
+Installing UV into an isolated environment<br/>
 `pipx install uv` or<br/>
 `pip install uv`<br/>
 
 ## Commands
-Check if UV is installed
+Check if UV is installed<br/>
 `uv version`
 
-Creating .venv
+Creating .venv<br/>
 `uv sync`
 
 Select Python (uv-env)  as the jupyter notebook kernal
