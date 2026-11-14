@@ -4,13 +4,13 @@ Training hosted by Booz Allen
 # List of Udemy Courses
 ## Part 1
 
-1. The Complete Python Bootcamp From Zero to Hero in Python - Jose Portilla
-Section 3: Python Object and Data Structure Basics
-16 - 36
-Section 4: Python Comparison Operators
-37, 38, Quiz 7
-Section 5: Python Statements
-39 - 45
+1. The Complete Python Bootcamp From Zero to Hero in Python - Jose Portilla<br/>
+*Section 3: Python Object and Data Structure Basics
+**16 - 36
+*Section 4: Python Comparison Operators
+**37, 38, Quiz 7
+*Section 5: Python Statements
+**39 - 45
 
 2. The AI Engineer Course 2026: Complete AI Engineer Bootcamp - 365 Careers
 Section 14: More on Operators
