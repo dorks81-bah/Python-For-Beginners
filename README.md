@@ -34,14 +34,14 @@ An extremely fast Python package and project manager for sharing .venv written i
 https://docs.astral.sh/uv/
 
 ## Installation
-`curl -LsSf https://astral.sh/uv/install.sh | sh` or
-`wget -qO- https://astral.sh/uv/install.sh | sh` or
-`brew install uv` for MAC
-go to UV website for Windows insallation instructions
+`curl -LsSf https://astral.sh/uv/install.sh | sh` or<br/>
+`wget -qO- https://astral.sh/uv/install.sh | sh` or<br/>
+`brew install uv` for MAC<br/>
+go to UV website for Windows insallation instructions<br/>
 
-installing uv into an isolated environment
-`pipx install uv` or
-`pip install uv`
+Installing uv into an isolated environment<br/>
+`pipx install uv` or<br/>
+`pip install uv`<br/>
 
 ## Commands
 Check if UV is installed
